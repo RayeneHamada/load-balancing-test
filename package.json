@@ -1,0 +1,24 @@
+{
+  "name": "load-balancing-test",
+  "version": "1.0.0",
+  "description": "This project is made to test the functioning of NGINX Load Balancing. It displays the ip address of the web server processing the request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayeneHamada/load-balancing-test.git"
+  },
+  "author": "RayenHamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RayeneHamada/load-balancing-test/issues"
+  },
+  "homepage": "https://github.com/RayeneHamada/load-balancing-test#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
